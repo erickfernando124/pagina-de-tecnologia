@@ -1,0 +1,465 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+@font-face {
+    font-family:"roboto-regular";
+    src:url('fonts/Quicksand-Regular.ttf');
+}
+body {
+    font-family:roboto-regular;
+    font-size:17px;
+}
+
+.contenedor {
+    width:100%;
+}
+
+header {
+    width:100%;
+}
+
+header .menu{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    background:#118ab2;
+    position:fixed;
+}
+
+.menu a{
+    text-decoration:none;
+    color:#fff;
+    padding:20px 0;
+    opacity:.7;
+    text-align:center;
+    font-size:18px;
+}
+.menu a:hover {
+    text-decoration:underline;
+    text-decoration-color:#4fb560;
+    opacity:1;
+}
+
+.inicio {
+    width:100%;
+}
+
+
+.inicio img {
+    width:100%;
+    vertical-align:top;
+}
+
+
+.contenedor-titulo-inicio {
+    width:100%;
+}
+
+.contenedor-titulo-inicio .titulo-inicio{
+    text-align:center;
+    color:#fff;
+    font-size:20px;
+    padding:20px;
+    background:#118ab2;
+    border-bottom:1px solid #4fb560;
+}
+
+/*quienes somos*/
+.contenedor-padre {
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.imagen-inicio {
+    width:100%;
+    max-width:50%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imagen-inicio .inicio-imagen {
+    width:100%;
+}
+
+.imagen-inicio .inicio-imagen img{
+    width:100%;
+    vertical-align:top;
+}
+
+
+.contenedor-inicio{
+    width:50%;
+    background:#003049;
+}
+
+.contenedor-inicio .articulo-inicio {
+    width:100%;
+    padding:20px;
+    justify-content:center;
+    align-items:center;
+    color: #fff;
+    line-height:30px;
+}
+.contenedor-inicio .articulo-inicio p{
+    width:100%;
+}
+.contenedor-inicio .articulo-inicio h2{
+    text-align:center;
+    color:#fff;
+    margin-bottom:20px;
+}
+
+
+
+/*menu de imagenes*/
+.main {
+    width:100%;
+    background:#003049;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.main .main-menu {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+.main .titulo-tecnologia {
+    width:100%;
+    background:#fff;
+    color:#000;
+    text-align:center;
+    padding:20px;
+    border-bottom:1px solid #4fb560;
+}
+
+.main .temas-menu{
+    width:100%;
+    max-width:300px;
+    margin:20px;
+}
+
+.main .temas-menu img {
+    width:100%;
+    vertical-align:top;
+}
+
+.main .temas-menu p{
+    background:#f1faee;
+    padding:20px;
+    text-align:center;
+}
+
+
+/*seccion de planes y precios*/
+.planes-precio {
+    width:100%;
+    background:#084c61;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding-bottom:20px;
+}
+
+.planes-precio .titulo-servicios {
+    width:100%;
+    background:#fff;
+    font-size:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:40px;
+    color:#000;
+    margin-top:20px;
+    border-bottom:1px solid #4fb560;
+    padding:20px;
+}
+
+.planes-precio .tamaño-cajas {
+    width:100%;
+    max-width:300px;
+    background:#fff;
+    padding:20px;
+    margin:10px;
+}
+
+.planes-precio .titulo-categoria{
+    text-align:center;
+    font-size:19px;
+    margin-bottom:20px;
+}
+
+.planes-precio .titulo1{
+    color:#8ecae6;
+}
+.planes-precio .titulo2{
+    color:#219ebc;
+}
+.planes-precio .titulo3{
+    color:#023047;
+}
+
+.planes-precio .pararfo {
+    line-height:40px;
+}
+
+.planes-precio .lista{
+    list-style:square;
+    list-style:url('img/flecha-correcta.png');
+    padding:0;
+    line-height:30px;
+    margin:20px;
+    text-align: cemter;
+}
+
+.planes-precio .precio-mes{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:10px;
+}
+
+.planes-precio .precio-mes p{
+    display:block;
+    display: flex;
+    justify-content:center;
+    font-size:19px;
+}
+
+input[type="submit"]{
+    display:flex;
+    justify-content:center;
+    padding:10px 20px;
+    background:none;
+    margin:0 auto;
+    border:1px solid #4fb560;
+    border-radius:3px;
+}
+input[type="submit"]:hover {
+    background:#4fb560;
+    color:#fff;
+}
+
+.planes-precio .tamaño-padding {
+    padding:0 20px 20px 20px;
+}
+.planes-precio .profesional {
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+}
+
+.planes-precio .profesional p{
+    background:#118ab2;
+    color:#fff;
+    border-radius:0 0 2px 2px;
+    font-size:18px;
+    padding:2px;
+}
+
+
+.iframe {
+    width:100%;
+    overflow:hidden;
+}
+
+.iframe .titulo {
+    width:100%;
+    padding:20px;
+    background:#118ab2;
+    display:flex;
+    justify-content:center;
+    font-weight:normal;
+    color:#fff;
+    font-size:18px;
+}
+
+.iframe .titulo p:hover {
+    text-decoration:underline;
+    text-decoration-color:#4fb560;
+}
+
+.iframe .tamaño{
+    font-size:17px;
+}
+
+.iframe .pagina {
+    width:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    float:left;
+}
+
+.iframe .pagina iframe {
+    width:100%;
+    margin:10px;
+}
+
+.iframe .video {
+    width:50%;
+    float:left;
+}
+
+.iframe .video iframe {
+    width:100%;
+    margin:10px;
+}
+
+.contacto {
+    width:100%;
+    display:flex;
+    justify-content:center;
+    background:#003049;
+    padding:20px;
+}
+
+.contacto .formulario {
+    width:100%;
+    max-width:500px;
+    background:#fff;
+    padding:20px;
+}
+.contacto .formulario input {
+    display:block;
+}
+
+.contacto label {
+    color:#000;
+    margin-bottom:10px;
+    display:flex;
+    justify-content:center;
+}
+.contacto input[type="text"] {
+    padding:10px 10px;
+    margin-bottom:10px;
+    width:100%;
+    border:1px solid #4fb560;
+    border-radius:5px;
+}
+
+.contacto textarea,
+.contacto input[type="email"]{
+    margin-bottom:10px;
+    width:100%;
+    padding:15px 10px;
+    border:1px solid #4fb560;
+    border-radius:5px;
+}
+
+.contacto textarea {
+    min-width:100%;
+    max-width:100%;
+    min-height:100px;
+    max-height:200px;
+    border-radius:5px;
+}
+
+.contacto input[type="submit"]{
+    padding:10px;
+    margin:auto;
+    border:1px solid #4fb560;
+    background:none;
+    border-radius:5px;
+}
+
+.contacto input[type="submit"]:hover {
+    background:#4fb560;
+    color:#fff;
+}
+
+footer {
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    text-align: center;
+    padding:0 30px;
+    background:#118ab2 ;
+    text-align: center;
+}
+footer .redes-sociales p {
+    display:inline-block;
+    color:#fff;
+    text-align:center;
+    border-right: 1px solid #fff;
+    padding-right:5px;
+}
+
+footer .redes-sociales a{
+    padding:30px 0;
+    display:inline-block;
+    margin-right:20px;
+    color:#fff;
+    text-decoration:none;
+}
+footer .redes-sociales a:hover {
+    text-decoration:underline;
+    text-decoration-color:#4fb560;
+}
+
+footer .autor p{
+    padding:30px 0;
+    color:#fff;
+}
+
+@media screen and (max-width:1000px){
+    .contenedor-padre{
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .planes-precio {
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+    }
+    
+    .planes-precio .tamaño-cajas{
+        width:100%;
+        max-width:400px;
+    }
+
+    footer {
+        flex-direction:column;
+    }
+
+    .redes-sociales{
+        order:2;
+    }
+
+    .autor {
+        order:1;
+    }
+
+    .iframe .pagina{
+        width:100%;
+    }
+
+    .iframe .video{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:500px){
+    header .menu{
+        position:scroll;
+    }
+    .contenedor-padre {
+        display: none;
+    }
+}
